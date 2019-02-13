@@ -1,0 +1,219 @@
+.nav{
+    background-color: #92000A;
+    font-size: 18px;
+    opacity: 0.7 ;
+    
+}
+
+.img-rounded{
+    margin: 30px;
+}
+
+
+a{
+    color: black;
+}
+
+.background {
+    background-color: darkgrey;
+    background-size: cover;
+    background-position: bottom;
+    padding: 10px;
+
+}
+
+.partidos {
+    background-color: #92000A;
+    padding: 10px;
+    font-size: 15px;
+    
+}
+
+button, select{
+    width: 200px;
+    background-color: firebrick;
+    color: white;
+    font-size: 10px;
+    
+}
+
+.correo {
+    font-size: 20px;
+    margin-left: 990px;
+    color:black;
+    
+}
+.final { background-color: #92000A;
+    font-size: 18px;
+    opacity: 0.7 ;
+    color: white;
+    text-align: center;
+    padding:10px;
+    margin-top: 20px;
+}
+
+button{
+    margin-left: 630px;
+}
+.espacio{
+    margin-left: 750px;
+    
+}
+
+span{
+    margin-left: 360px;
+}
+
+.container {
+    background-color:#E7E4E4;
+}
+
+.texto {
+    margin: 30px;
+}
+
+.centro {
+    
+    text-align: center;
+}
+
+#myButton {
+    margin-right: 304px;
+}
+
+
+#more {display: none;
+
+}
+
+.fix {
+  width: 200px;  
+}
+/*
+.titulotabla {
+    background-color: firebrick;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    margin-left: 40px;
+    
+}
+*/
+
+/* LOADER */
+
+@keyframes lds-spinner {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes lds-spinner {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.lds-spinner {
+  position: relative;
+}
+.lds-spinner div {
+  left: 550px;
+  top: 78px;
+  position: absolute;
+  -webkit-animation: lds-spinner linear 1s infinite;
+  animation: lds-spinner linear 1s infinite;
+  background: #d01012;
+  width: 12px;
+  height: 24px;
+  border-radius: 40%;
+  -webkit-transform-origin: 6px 52px;
+  transform-origin: 6px 52px;
+}
+.lds-spinner div:nth-child(1) {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-animation-delay: -0.916666666666667s;
+  animation-delay: -0.916666666666667s;
+}
+.lds-spinner div:nth-child(2) {
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+  -webkit-animation-delay: -0.833333333333333s;
+  animation-delay: -0.833333333333333s;
+}
+.lds-spinner div:nth-child(3) {
+  -webkit-transform: rotate(60deg);
+  transform: rotate(60deg);
+  -webkit-animation-delay: -0.75s;
+  animation-delay: -0.75s;
+}
+.lds-spinner div:nth-child(4) {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-animation-delay: -0.666666666666667s;
+  animation-delay: -0.666666666666667s;
+}
+.lds-spinner div:nth-child(5) {
+  -webkit-transform: rotate(120deg);
+  transform: rotate(120deg);
+  -webkit-animation-delay: -0.583333333333333s;
+  animation-delay: -0.583333333333333s;
+}
+.lds-spinner div:nth-child(6) {
+  -webkit-transform: rotate(150deg);
+  transform: rotate(150deg);
+  -webkit-animation-delay: -0.5s;
+  animation-delay: -0.5s;
+}
+.lds-spinner div:nth-child(7) {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  -webkit-animation-delay: -0.416666666666667s;
+  animation-delay: -0.416666666666667s;
+}
+.lds-spinner div:nth-child(8) {
+  -webkit-transform: rotate(210deg);
+  transform: rotate(210deg);
+  -webkit-animation-delay: -0.333333333333333s;
+  animation-delay: -0.333333333333333s;
+}
+.lds-spinner div:nth-child(9) {
+  -webkit-transform: rotate(240deg);
+  transform: rotate(240deg);
+  -webkit-animation-delay: -0.25s;
+  animation-delay: -0.25s;
+}
+.lds-spinner div:nth-child(10) {
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+  -webkit-animation-delay: -0.166666666666667s;
+  animation-delay: -0.166666666666667s;
+}
+.lds-spinner div:nth-child(11) {
+  -webkit-transform: rotate(300deg);
+  transform: rotate(300deg);
+  -webkit-animation-delay: -0.083333333333333s;
+  animation-delay: -0.083333333333333s;
+}
+.lds-spinner div:nth-child(12) {
+  -webkit-transform: rotate(330deg);
+  transform: rotate(330deg);
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+.lds-spinner {
+  width: 200px !important;
+  height: 200px !important;
+  -webkit-transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+  transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+}
+
+
+
+
+

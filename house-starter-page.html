@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+
+    <div class="background">
+
+
+        <nav class="nav-pills">
+            <img src="imatges/473d845b-1029-4ab4-bd66-9e82a622bfcc.png" class="img-rounded" alt="Cinque Terre" width="200px" height="200px">
+            <a class="correo" href="mailto:info@tgif.net"> info@tgif.net </a>
+            <ul class="nav nav-pills">
+                <li><a href="home.html">Home</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toogle" data-toggle="dropdown">Congress 113</a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="senate-starter-page.html">Senate</a></li>
+                        <li><a href="house-starter-page.html">House</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toogle" data-toggle="dropdown">Attendance</a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="senate-attendance.html">Senate</a></li>
+                        <li><a href="house-attendance.html">House</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toogle" data-toggle="dropdown">Party Loyalty</a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="senate-partyloyalty.html">Senate</a></li>
+                        <li><a href="house-partyloyalty.html">House</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+
+        <h2 class="texto centro">Congressmen</h2>
+        <p class="texto">The major power of the House is to pass federal legislation that affects the entire country, although its bills must also be passed by the Senate and further agreed to by the U.S. President before becoming law (unless both the House and Senate re-pass the legislation with a two-thirds majority in each chamber). The House has some exclusive powers: the power to initiate revenue bills, to impeach officials (impeached officials are subsequently tried in the Senate), and to elect the U.S. President in case there is no majority in the Electoral College.</p>
+        <p class="texto">Each U.S. state is represented in the House in proportion to its population as measured in the census, but every state is entitled to at least one representative. </p>
+
+
+        <div class="partidos">
+            Filter by Party: <input type="checkbox" id="democrat" name="party" value="D"> democrat
+            <input type="checkbox" id="republican" name="party" value="R"> republican
+            <input type="checkbox" id="independent" name="party" value="I"> independent
+            <span> Filter by State: <select id="states">
+                    <option> state </option>
+                </select>
+            </span>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th class="fix">Name</th>
+                    <th class="fix">Party</th>
+                    <th class="fix">State</th>
+                    <th class="fix">Seniority</th>
+                    <th class="fix">% of Votes</th>
+                </tr>
+            </thead>
+            <tbody id="house-data">     
+            </tbody>
+        </table>
+         <div class="lds-css ng-scope" id="spin">
+            <div class="lds-spinner" style="100%;height:100%">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+
+    <p class="final"> ⓒ 2016 TGIF || All Rights Reserved</p>
+
+
+    <!--	    <script src="./js/pro-congress-113-house.js"></script>-->
+    <script src="./js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
